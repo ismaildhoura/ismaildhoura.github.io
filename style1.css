@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* QR Code positionné */
+#qrcode {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav {
+    background-color: #0f172a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;          /* menu horizontal */
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+main {
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+/* Bouton haut */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1e40af;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #020617;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#copyright {
+    color: #38bdf8;
+    font-weight: bold;
+}
